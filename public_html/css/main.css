@@ -1,0 +1,46 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+.content-image{
+    display: block;
+    padding: 0;
+    overflow: hidden;
+}
+
+.image {
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:100%;
+    height: 400px;
+    display: block;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+}
+.image:hover{
+    opacity: 0.4;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+.blueimp-gallery > .description{
+    top: 90% !important;
+
+}
+
+
+
+
+
+
+
+
